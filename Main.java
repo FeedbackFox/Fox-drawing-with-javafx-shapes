@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
 
 import javafx.scene.shape.Polygon;
@@ -102,6 +103,8 @@ public class Main extends Application {
 		root.getChildren().add(realpolygon1);
 		
 		primaryStage.setScene(scene);
+		primaryStage.setTitle("Polygonal Fox");
+		primaryStage.getIcons().add(new Image("file:photo.jpg"));
 		primaryStage.show();
 	}
 	
